@@ -61,10 +61,10 @@ def create_playlist_with_fifa_tracks(username, client_id, client_secret, redirec
     print(f"Playlist '{new_playlist['name']}' created with tracks from Aaron's FIFA playlists.")
 
 #Needed for auth, setup on official spotify api
-client_id = 'fda2419b941641f1945008c815659427'
-client_secret = 'ab7680a3f94f457db72552314a41787e'
-redirect_uri = 'http://localhost:3000/artist-search'
-username = '12181686267'
+client_id = 'prod by noid'
+client_secret = 'its a secret lol'
+redirect_uri = 'cant give this us'
+username = 'use ur own'
 
 #Runs the function and passed our auth arguments
 create_playlist_with_fifa_tracks(username, client_id, client_secret, redirect_uri)
