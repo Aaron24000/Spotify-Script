@@ -1,13 +1,6 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-
-"""
-PYTHON FUNCTINONS
-A functions is a block of code which only runs when it's called
-    You can pass data, known as parameters, into a function
-    A function can return data as a result
-"""
 def get_spotify_playlists(username, client_id, client_secret, redirect_uri):
     #We'll need to authenticate this with the info from the spotify API dashboard
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
